@@ -41,7 +41,7 @@ export const Navbar = () => {
               ) : (
                 ""
               )}
-              <NavLink to="/carts">Carts</NavLink>
+              <NavLink to="/cart">Cart</NavLink>
             </li>
           </ul>
         </div>

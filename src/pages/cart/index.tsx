@@ -23,7 +23,7 @@ import { FiPlus, FiMinus } from "react-icons/fi";
 import { useCookies } from "react-cookie";
 import {Button} from "@/components/ui/button.tsx";
 
-const CartList = () => {
+const Cart = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const [cookies] = useCookies(["token"]);
@@ -127,4 +127,4 @@ const CartList = () => {
   );
 };
 
-export default CartList;
+export default Cart;

@@ -3,8 +3,8 @@ import NotFound from '@/pages/not-found'
 import {createBrowserRouter} from 'react-router-dom'
 import ProductList from "@/pages/products/list";
 import ProductDetail from "@/pages/products/detail";
-import Cart from "@/pages/cart";
 import Login from "@/pages/login";
+import Cart from "@/pages/cart";
 
 export const router = createBrowserRouter([
   {
