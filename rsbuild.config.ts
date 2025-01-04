@@ -12,4 +12,10 @@ export default defineConfig({
       },
     }),
   ],
+  html: {
+    template: 'index.html'
+  },
+  server: {
+    port: 3005
+  }
 });

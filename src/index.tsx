@@ -7,7 +7,7 @@ import { store } from "./redux";
 
 import "@/assets/css/main.css";
 
-const rootEl = document.getElementById("root");
+const rootEl = document.getElementById('root-tag');
 if (rootEl) {
   const root = ReactDOM.createRoot(rootEl);
   root.render(
