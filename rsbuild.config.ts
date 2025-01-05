@@ -15,6 +15,11 @@ export default defineConfig({
   html: {
     template: 'index.html'
   },
+  output: {
+    distPath: {
+      root: 'build'
+    }
+  },
   server: {
     port: 3005
   }
