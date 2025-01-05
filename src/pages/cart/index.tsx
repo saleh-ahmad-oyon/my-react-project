@@ -61,7 +61,7 @@ const Cart = () => {
         {cartItems.length > 0 ? (
           <>
             <Table className="w-full">
-              <TableCaption>List of your recent added items in the cart.</TableCaption>
+              <TableCaption>List of your recently added items in the cart.</TableCaption>
               <TableHeader className="bg-sky-200">
                 <TableRow>
                   <TableHead className="text-black font-bold">ID</TableHead>
