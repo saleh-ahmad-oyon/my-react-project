@@ -16,6 +16,7 @@ export default defineConfig({
     template: 'index.html'
   },
   server: {
+    base: "/my-react-project/",
     port: 3005
   }
 });
